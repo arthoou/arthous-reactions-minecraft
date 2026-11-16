@@ -1,0 +1,127 @@
+{
+  "reaction_pop": {
+    "subtitle": "subtitles.arthousreactions.reaction_pop",
+    "sounds": [
+      {
+        "name": "arthousreactions:reaction_pop"
+      }
+    ]
+  },
+  "cheer_pop": {
+    "subtitle": "subtitles.arthousreactions.cheer_pop",
+    "sounds": [
+      {
+        "name": "arthousreactions:cheer_pop"
+      }
+    ]
+  },
+  "angry_reaction": {
+    "subtitle": "subtitles.arthousreactions.angry_reaction",
+    "sounds": [
+      {
+        "name": "arthousreactions:angry_reaction"
+      }
+    ]
+  },
+  "pout_stomp": {
+    "subtitle": "subtitles.arthousreactions.pout_stomp",
+    "sounds": [
+      {
+        "name": "arthousreactions:pout_stomp",
+        "volume": 1.35
+      }
+    ]
+  },
+  "emote_hi": {
+    "subtitle": "subtitles.arthousreactions.emote_hi",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_hi"
+      }
+    ]
+  },
+  "emote_sad": {
+    "subtitle": "subtitles.arthousreactions.emote_sad",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_sad"
+      }
+    ]
+  },
+  "emote_laugh": {
+    "subtitle": "subtitles.arthousreactions.emote_laugh",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_laugh"
+      }
+    ]
+  },
+  "emote_fear": {
+    "subtitle": "subtitles.arthousreactions.emote_fear",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_fear"
+      }
+    ]
+  },
+  "emote_woah": {
+    "subtitle": "subtitles.arthousreactions.emote_woah",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_woah"
+      }
+    ]
+  },
+  "emote_ew": {
+    "subtitle": "subtitles.arthousreactions.emote_ew",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_ew"
+      }
+    ]
+  },
+  "emote_clap": {
+    "subtitle": "subtitles.arthousreactions.emote_clap",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_clap"
+      }
+    ]
+  },
+  "emote_67": {
+    "subtitle": "subtitles.arthousreactions.emote_67",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_67",
+        "stream": false
+      }
+    ]
+  },
+  "emote_bye": {
+    "subtitle": "subtitles.arthousreactions.emote_bye",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_bye",
+        "stream": false
+      }
+    ]
+  },
+  "emote_vine_boom": {
+    "subtitle": "subtitles.arthousreactions.emote_vine_boom",
+    "sounds": [
+      {
+        "name": "arthousreactions:emote_vine_boom",
+        "stream": false
+      }
+    ]
+  },
+  "scuba": {
+    "subtitle": "subtitles.arthousreactions.scuba",
+    "sounds": [
+      {
+        "name": "arthousreactions:scuba",
+        "stream": true
+      }
+    ]
+  }
+}

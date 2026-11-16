@@ -1,0 +1,6 @@
+name: ArthousReactions
+version: 2.0.0
+main: com.arthou.arthousreactions.paper.ArthousReactionsPaperPlugin
+api-version: '1.21'
+author: arthou
+description: Bridge plugin for Arthous Reactions Fabric clients on Paper servers.

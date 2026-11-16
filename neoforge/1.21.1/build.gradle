@@ -1,0 +1,161 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = project.mod_version
+group = project.mod_group_id
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(project.java_version as int)
+
+repositories {
+    mavenCentral()
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    maven {
+        url = 'https://maven.kosmx.dev/'
+        content {
+            includeGroup 'dev.kosmx.player-anim'
+            includeGroup 'io.github.kosmx.bendy-lib'
+        }
+    }
+}
+
+dependencies {
+    compileOnly('maven.modrinth:3dskinlayers:GJTnQGfe') { transitive = false }
+    testImplementation('maven.modrinth:3dskinlayers:GJTnQGfe') { transitive = false }
+    jarJar(implementation('dev.kosmx.player-anim:player-animation-lib-forge')) {
+        version {
+            strictly '[2.0.4+1.21.1,2.1)'
+            prefer '2.0.4+1.21.1'
+        }
+    }
+    jarJar(implementation('io.github.kosmx.bendy-lib:bendy-lib-forge')) {
+        version {
+            strictly '[5.1,6.0)'
+            prefer '5.1'
+        }
+    }
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.register('exportAnimationPreview', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.arthou.arthousreactions.client.AnimationPreviewExport'
+    args layout.projectDirectory.file('design/angel-animation/animation-frames.js').asFile.absolutePath
+}
+
+// Exercise the real packet codecs without launching a Minecraft instance.
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
+}
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    def replaceProperties = [
+        minecraft_version      : minecraft_version,
+        minecraft_version_range: minecraft_version_range,
+        neo_version            : neo_version,
+        loader_version_range   : loader_version_range,
+        mod_id                 : mod_id,
+        mod_name               : mod_name,
+        mod_license            : mod_license,
+        mod_version            : mod_version,
+        mod_authors            : mod_authors,
+        mod_description        : mod_description
+    ]
+
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/neoforge.mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = Integer.parseInt(project.java_version)
+}
+
+java {
+    withSourcesJar()
+}
+
+tasks.named('jar') {
+    from('THIRD_PARTY_NOTICES.md')
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
+
+// Compile against the optional API, then also exercise the mod with that JAR absent.
+tasks.named('test', Test) {
+    useJUnitPlatform { excludeTags 'without-skinlayers' }
+}
+tasks.register('testWithoutSkinLayers', Test) {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath.filter { !it.name.startsWith('3dskinlayers-') }
+    exclude '**/SkinLayersBridgeTest*', '**/SkinLayersGeometry*'
+    useJUnitPlatform { excludeTags 'skinlayers' }
+    shouldRunAfter tasks.named('test')
+}
+tasks.named('check') { dependsOn tasks.named('testWithoutSkinLayers') }

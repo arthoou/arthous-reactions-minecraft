@@ -1,0 +1,16 @@
+[
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/editor/elements/ModelElement.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/editor/project/ProjectFile.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/effects/EffectPerFaceUV.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/Cube.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/RenderedCube.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/RootModelElement.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/render/BoxRender.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/render/DirectModelRenderManager.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/render/GuiModelRenderManager.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/render/ModelRenderManager.java",
+  "CustomPlayerModels/src/shared/java/com/tom/cpm/shared/model/render/PerFaceUV.java",
+  "Web/src/blockbench/java/com/tom/cpm/blockbench/proxy/Cube.java",
+  "Web/src/main/java/com/tom/cpm/shared/editor/project/ProjectFile.java",
+  "Web/src/main/java/com/tom/cpm/shared/model/render/BoxRender.java"
+]

@@ -1,0 +1,1829 @@
+{
+  "version": 1,
+  "elements": [
+    {
+      "id": "head",
+      "show": true,
+      "showInEditor": true,
+      "locked": false,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    },
+    {
+      "id": "body",
+      "show": false,
+      "showInEditor": true,
+      "locked": false,
+      "children": [
+        {
+          "name": "Asas",
+          "show": true,
+          "texture": true,
+          "textureSize": 1,
+          "offset": {
+            "x": -4,
+            "y": 0,
+            "z": -2
+          },
+          "pos": {
+            "x": 0,
+            "y": 0,
+            "z": -2.5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 8,
+            "y": 12,
+            "z": 4
+          },
+          "rscale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "u": 0,
+          "v": 0,
+          "color": "0",
+          "mirror": false,
+          "mcScale": 0,
+          "glow": false,
+          "recolor": false,
+          "hidden": false,
+          "singleTex": false,
+          "extrude": false,
+          "locked": false,
+          "nameColor": 0,
+          "faceUV": {
+            "up": {
+              "sx": 470,
+              "sy": 480,
+              "ex": 454,
+              "ey": 472,
+              "rot": "180",
+              "autoUV": false
+            },
+            "down": {
+              "sx": 486,
+              "sy": 472,
+              "ex": 470,
+              "ey": 480,
+              "rot": "180",
+              "autoUV": false
+            },
+            "north": {
+              "sx": 454,
+              "sy": 480,
+              "ex": 470,
+              "ey": 504,
+              "rot": "0",
+              "autoUV": false
+            },
+            "south": {
+              "sx": 478,
+              "sy": 480,
+              "ex": 494,
+              "ey": 504,
+              "rot": "0",
+              "autoUV": false
+            },
+            "east": {
+              "sx": 470,
+              "sy": 480,
+              "ex": 478,
+              "ey": 504,
+              "rot": "0",
+              "autoUV": false
+            },
+            "west": {
+              "sx": 446,
+              "sy": 480,
+              "ex": 454,
+              "ey": 504,
+              "rot": "0",
+              "autoUV": false
+            }
+          },
+          "storeID": 1475272140496240600,
+          "children": [
+            {
+              "name": "cube",
+              "show": true,
+              "texture": true,
+              "textureSize": 1,
+              "offset": {
+                "x": -1,
+                "y": -24,
+                "z": 2
+              },
+              "pos": {
+                "x": -4,
+                "y": 25,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "y": 45,
+                "z": 0
+              },
+              "size": {
+                "x": 2,
+                "y": 6,
+                "z": 2.1
+              },
+              "rscale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "u": 0,
+              "v": 0,
+              "color": "0",
+              "mirror": false,
+              "mcScale": 0,
+              "glow": false,
+              "recolor": false,
+              "hidden": false,
+              "singleTex": false,
+              "extrude": false,
+              "locked": false,
+              "nameColor": 0,
+              "faceUV": {
+                "up": {
+                  "sx": 119,
+                  "sy": 124,
+                  "ex": 107,
+                  "ey": 111,
+                  "rot": "180",
+                  "autoUV": false
+                },
+                "down": {
+                  "sx": 2,
+                  "sy": 0,
+                  "ex": 0,
+                  "ey": 2,
+                  "rot": "180",
+                  "autoUV": false
+                },
+                "north": {
+                  "sx": 0,
+                  "sy": 2,
+                  "ex": 1,
+                  "ey": 4,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "south": {
+                  "sx": 97,
+                  "sy": 1,
+                  "ex": 112,
+                  "ey": 33,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "east": {
+                  "sx": 0,
+                  "sy": 0,
+                  "ex": 2,
+                  "ey": 2,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "west": {
+                  "sx": 63,
+                  "sy": 1,
+                  "ex": 78,
+                  "ey": 32,
+                  "rot": "0",
+                  "autoUV": false
+                }
+              },
+              "storeID": 7300215069151522000,
+              "children": [
+                {
+                  "name": "Nuevo Cubo",
+                  "show": true,
+                  "texture": true,
+                  "textureSize": 1,
+                  "offset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "size": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "rscale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "u": 0,
+                  "v": 0,
+                  "color": "0",
+                  "mirror": false,
+                  "mcScale": 0,
+                  "glow": false,
+                  "recolor": true,
+                  "hidden": false,
+                  "singleTex": false,
+                  "extrude": false,
+                  "locked": false,
+                  "nameColor": 0,
+                  "storeID": 5748597579481708000,
+                  "children": [
+                    {
+                      "name": "cube",
+                      "show": true,
+                      "texture": true,
+                      "textureSize": 1,
+                      "offset": {
+                        "x": -0.05,
+                        "y": 1.5,
+                        "z": 3
+                      },
+                      "pos": {
+                        "x": 0,
+                        "y": -24,
+                        "z": -1
+                      },
+                      "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "size": {
+                        "x": 0.2,
+                        "y": 7,
+                        "z": 10
+                      },
+                      "rscale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "u": 0,
+                      "v": 0,
+                      "color": "0",
+                      "mirror": false,
+                      "mcScale": 0,
+                      "glow": false,
+                      "recolor": false,
+                      "hidden": false,
+                      "singleTex": false,
+                      "extrude": false,
+                      "locked": false,
+                      "nameColor": 0,
+                      "faceUV": {
+                        "up": {
+                          "sx": 1,
+                          "sy": 3,
+                          "ex": 1,
+                          "ey": 1,
+                          "rot": "180",
+                          "autoUV": false
+                        },
+                        "down": {
+                          "sx": 1,
+                          "sy": 1,
+                          "ex": 1,
+                          "ey": 3,
+                          "rot": "180",
+                          "autoUV": false
+                        },
+                        "north": {
+                          "sx": 1,
+                          "sy": 3,
+                          "ex": 1,
+                          "ey": 5,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "south": {
+                          "sx": 1,
+                          "sy": 2,
+                          "ex": 1,
+                          "ey": 4,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "east": {
+                          "sx": 57,
+                          "sy": 87,
+                          "ex": 105,
+                          "ey": 124,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "west": {
+                          "sx": 105,
+                          "sy": 87,
+                          "ex": 57,
+                          "ey": 124,
+                          "rot": "0",
+                          "autoUV": false
+                        }
+                      },
+                      "storeID": 2682916780585637400,
+                      "children": [
+                        {
+                          "name": "cube_r1",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "rotation": {
+                            "x": -5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {},
+                          "storeID": 3919587699669727700,
+                          "children": [
+                            {
+                              "name": "cube",
+                              "show": true,
+                              "texture": true,
+                              "textureSize": 1,
+                              "offset": {
+                                "x": -0.5,
+                                "y": -0.05,
+                                "z": 5
+                              },
+                              "pos": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "size": {
+                                "x": 1,
+                                "y": 2,
+                                "z": 4
+                              },
+                              "rscale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "u": 0,
+                              "v": 0,
+                              "color": "0",
+                              "mirror": false,
+                              "mcScale": 0,
+                              "glow": false,
+                              "recolor": false,
+                              "hidden": false,
+                              "singleTex": false,
+                              "extrude": false,
+                              "locked": false,
+                              "nameColor": 0,
+                              "faceUV": {
+                                "up": {
+                                  "sx": 119,
+                                  "sy": 86,
+                                  "ex": 106,
+                                  "ey": 63,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "down": {
+                                  "sx": 1,
+                                  "sy": 1,
+                                  "ex": 0,
+                                  "ey": 5,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "north": {
+                                  "sx": 0,
+                                  "sy": 3,
+                                  "ex": 1,
+                                  "ey": 5,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "south": {
+                                  "sx": 63,
+                                  "sy": 65,
+                                  "ex": 76,
+                                  "ey": 84,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "east": {
+                                  "sx": 83,
+                                  "sy": 45,
+                                  "ex": 115,
+                                  "ey": 60,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "west": {
+                                  "sx": 115,
+                                  "sy": 45,
+                                  "ex": 83,
+                                  "ey": 60,
+                                  "rot": "0",
+                                  "autoUV": false
+                                }
+                              },
+                              "storeID": 2446891802305052700
+                            },
+                            {
+                              "name": "cube",
+                              "show": true,
+                              "texture": true,
+                              "textureSize": 1,
+                              "offset": {
+                                "x": -0.75,
+                                "y": -0.25,
+                                "z": 4
+                              },
+                              "pos": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "size": {
+                                "x": 1.5,
+                                "y": 2.3,
+                                "z": 2
+                              },
+                              "rscale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "u": 0,
+                              "v": 0,
+                              "color": "0",
+                              "mirror": false,
+                              "mcScale": 0,
+                              "glow": false,
+                              "recolor": false,
+                              "hidden": false,
+                              "singleTex": false,
+                              "extrude": false,
+                              "locked": false,
+                              "nameColor": 0,
+                              "faceUV": {
+                                "up": {
+                                  "sx": 100,
+                                  "sy": 71,
+                                  "ex": 79,
+                                  "ey": 62,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "down": {
+                                  "sx": 11,
+                                  "sy": 1,
+                                  "ex": 7,
+                                  "ey": 5,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "north": {
+                                  "sx": 0,
+                                  "sy": 2,
+                                  "ex": 1,
+                                  "ey": 4,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "south": {
+                                  "sx": 113,
+                                  "sy": 10,
+                                  "ex": 122,
+                                  "ey": 27,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "east": {
+                                  "sx": 64,
+                                  "sy": 45,
+                                  "ex": 80,
+                                  "ey": 63,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "west": {
+                                  "sx": 80,
+                                  "sy": 45,
+                                  "ex": 64,
+                                  "ey": 63,
+                                  "rot": "0",
+                                  "autoUV": false
+                                }
+                              },
+                              "storeID": 2215073570559433200
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "B",
+                      "show": true,
+                      "texture": true,
+                      "textureSize": 1,
+                      "offset": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "pos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -5
+                      },
+                      "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "size": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "rscale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "u": 0,
+                      "v": 0,
+                      "color": "0",
+                      "mirror": false,
+                      "mcScale": 0,
+                      "glow": false,
+                      "recolor": false,
+                      "hidden": false,
+                      "singleTex": false,
+                      "extrude": false,
+                      "locked": false,
+                      "nameColor": 0,
+                      "faceUV": {},
+                      "storeID": 1582022758332197400,
+                      "children": [
+                        {
+                          "name": "cube",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": 0,
+                            "y": -22.5,
+                            "z": 14
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": -8,
+                            "z": -6
+                          },
+                          "rotation": {
+                            "x": -22.5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0.1,
+                            "y": 6,
+                            "z": 8
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {
+                            "up": {
+                              "sx": 0,
+                              "sy": 2,
+                              "ex": 0,
+                              "ey": 0,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "down": {
+                              "sx": 0,
+                              "sy": 0,
+                              "ex": 0,
+                              "ey": 2,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "north": {
+                              "sx": 0,
+                              "sy": 3,
+                              "ex": 0,
+                              "ey": 5,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "south": {
+                              "sx": 0,
+                              "sy": 2,
+                              "ex": 0,
+                              "ey": 4,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "east": {
+                              "sx": 45,
+                              "sy": 68,
+                              "ex": 2,
+                              "ey": 96,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "west": {
+                              "sx": 2,
+                              "sy": 68,
+                              "ex": 45,
+                              "ey": 96,
+                              "rot": "0",
+                              "autoUV": false
+                            }
+                          },
+                          "storeID": 1748085024143326500
+                        },
+                        {
+                          "name": "cube",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": -0.35,
+                            "y": 1.5,
+                            "z": 8.5
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": -24,
+                            "z": 4
+                          },
+                          "rotation": {
+                            "x": 5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0.8,
+                            "y": 1.5,
+                            "z": 4
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {
+                            "up": {
+                              "sx": 118,
+                              "sy": 111,
+                              "ex": 108,
+                              "ey": 89,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "down": {
+                              "sx": 1,
+                              "sy": 0,
+                              "ex": 0,
+                              "ey": 4,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "north": {
+                              "sx": 0,
+                              "sy": 3,
+                              "ex": 1,
+                              "ey": 4,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "south": {
+                              "sx": 54,
+                              "sy": 66,
+                              "ex": 62,
+                              "ey": 78,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "east": {
+                              "sx": 77,
+                              "sy": 73,
+                              "ex": 104,
+                              "ey": 86,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "west": {
+                              "sx": 104,
+                              "sy": 73,
+                              "ex": 77,
+                              "ey": 86,
+                              "rot": "0",
+                              "autoUV": false
+                            }
+                          },
+                          "storeID": 4348021901148748000
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cube",
+              "show": true,
+              "texture": true,
+              "textureSize": 1,
+              "offset": {
+                "x": -1,
+                "y": -24,
+                "z": 2
+              },
+              "pos": {
+                "x": 3,
+                "y": 25,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "y": -45,
+                "z": 0
+              },
+              "size": {
+                "x": 2,
+                "y": 6,
+                "z": 2.1
+              },
+              "rscale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "u": 0,
+              "v": 0,
+              "color": "0",
+              "mirror": false,
+              "mcScale": 0,
+              "glow": false,
+              "recolor": false,
+              "hidden": false,
+              "singleTex": false,
+              "extrude": false,
+              "locked": false,
+              "nameColor": 0,
+              "faceUV": {
+                "up": {
+                  "sx": 107,
+                  "sy": 124,
+                  "ex": 119,
+                  "ey": 111,
+                  "rot": "180",
+                  "autoUV": false
+                },
+                "down": {
+                  "sx": 2,
+                  "sy": 1,
+                  "ex": 0,
+                  "ey": 3,
+                  "rot": "180",
+                  "autoUV": false
+                },
+                "north": {
+                  "sx": 0,
+                  "sy": 2,
+                  "ex": 1,
+                  "ey": 4,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "south": {
+                  "sx": 97,
+                  "sy": 1,
+                  "ex": 112,
+                  "ey": 33,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "east": {
+                  "sx": 97,
+                  "sy": 1,
+                  "ex": 112,
+                  "ey": 33,
+                  "rot": "0",
+                  "autoUV": false
+                },
+                "west": {
+                  "sx": 63,
+                  "sy": 1,
+                  "ex": 78,
+                  "ey": 32,
+                  "rot": "0",
+                  "autoUV": false
+                }
+              },
+              "storeID": 2649296179697214500,
+              "children": [
+                {
+                  "name": "Nuevo Cubo",
+                  "show": true,
+                  "texture": true,
+                  "textureSize": 1,
+                  "offset": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "pos": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "size": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "rscale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "u": 0,
+                  "v": 0,
+                  "color": "0",
+                  "mirror": false,
+                  "mcScale": 0,
+                  "glow": false,
+                  "recolor": true,
+                  "hidden": false,
+                  "singleTex": false,
+                  "extrude": false,
+                  "locked": false,
+                  "nameColor": 0,
+                  "storeID": 2894882032104467000,
+                  "children": [
+                    {
+                      "name": "cube",
+                      "show": true,
+                      "texture": true,
+                      "textureSize": 1,
+                      "offset": {
+                        "x": -0.05,
+                        "y": 1.5,
+                        "z": 3
+                      },
+                      "pos": {
+                        "x": 0,
+                        "y": -24,
+                        "z": -1
+                      },
+                      "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "size": {
+                        "x": 0.2,
+                        "y": 7,
+                        "z": 10
+                      },
+                      "rscale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "u": 0,
+                      "v": 0,
+                      "color": "0",
+                      "mirror": false,
+                      "mcScale": 0,
+                      "glow": false,
+                      "recolor": false,
+                      "hidden": false,
+                      "singleTex": false,
+                      "extrude": false,
+                      "locked": false,
+                      "nameColor": 0,
+                      "faceUV": {
+                        "up": {
+                          "sx": 0,
+                          "sy": 3,
+                          "ex": 0,
+                          "ey": 1,
+                          "rot": "180",
+                          "autoUV": false
+                        },
+                        "down": {
+                          "sx": 0,
+                          "sy": 1,
+                          "ex": 0,
+                          "ey": 3,
+                          "rot": "180",
+                          "autoUV": false
+                        },
+                        "north": {
+                          "sx": 0,
+                          "sy": 4,
+                          "ex": 0,
+                          "ey": 6,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "south": {
+                          "sx": 0,
+                          "sy": 3,
+                          "ex": 0,
+                          "ey": 5,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "east": {
+                          "sx": 57,
+                          "sy": 87,
+                          "ex": 105,
+                          "ey": 124,
+                          "rot": "0",
+                          "autoUV": false
+                        },
+                        "west": {
+                          "sx": 105,
+                          "sy": 87,
+                          "ex": 57,
+                          "ey": 124,
+                          "rot": "0",
+                          "autoUV": false
+                        }
+                      },
+                      "storeID": 6015699765635592000,
+                      "children": [
+                        {
+                          "name": "cube_r4",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "rotation": {
+                            "x": -5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {},
+                          "storeID": 667683418178380300,
+                          "children": [
+                            {
+                              "name": "cube",
+                              "show": true,
+                              "texture": true,
+                              "textureSize": 1,
+                              "offset": {
+                                "x": -0.5,
+                                "y": -0.05,
+                                "z": 5
+                              },
+                              "pos": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "size": {
+                                "x": 1,
+                                "y": 2,
+                                "z": 4
+                              },
+                              "rscale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "u": 0,
+                              "v": 0,
+                              "color": "0",
+                              "mirror": false,
+                              "mcScale": 0,
+                              "glow": false,
+                              "recolor": false,
+                              "hidden": false,
+                              "singleTex": false,
+                              "extrude": false,
+                              "locked": false,
+                              "nameColor": 0,
+                              "faceUV": {
+                                "up": {
+                                  "sx": 119,
+                                  "sy": 86,
+                                  "ex": 106,
+                                  "ey": 63,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "down": {
+                                  "sx": 1,
+                                  "sy": 2,
+                                  "ex": 0,
+                                  "ey": 6,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "north": {
+                                  "sx": 0,
+                                  "sy": 3,
+                                  "ex": 1,
+                                  "ey": 5,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "south": {
+                                  "sx": 63,
+                                  "sy": 65,
+                                  "ex": 76,
+                                  "ey": 84,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "east": {
+                                  "sx": 83,
+                                  "sy": 45,
+                                  "ex": 115,
+                                  "ey": 60,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "west": {
+                                  "sx": 115,
+                                  "sy": 45,
+                                  "ex": 83,
+                                  "ey": 60,
+                                  "rot": "0",
+                                  "autoUV": false
+                                }
+                              },
+                              "storeID": 853080489442659800
+                            },
+                            {
+                              "name": "cube",
+                              "show": true,
+                              "texture": true,
+                              "textureSize": 1,
+                              "offset": {
+                                "x": -0.75,
+                                "y": -0.25,
+                                "z": 4
+                              },
+                              "pos": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "size": {
+                                "x": 1.5,
+                                "y": 2.3,
+                                "z": 2
+                              },
+                              "rscale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                              },
+                              "u": 0,
+                              "v": 0,
+                              "color": "0",
+                              "mirror": false,
+                              "mcScale": 0,
+                              "glow": false,
+                              "recolor": false,
+                              "hidden": false,
+                              "singleTex": false,
+                              "extrude": false,
+                              "locked": false,
+                              "nameColor": 0,
+                              "faceUV": {
+                                "up": {
+                                  "sx": 100,
+                                  "sy": 71,
+                                  "ex": 79,
+                                  "ey": 62,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "down": {
+                                  "sx": 12,
+                                  "sy": 1,
+                                  "ex": 8,
+                                  "ey": 5,
+                                  "rot": "180",
+                                  "autoUV": false
+                                },
+                                "north": {
+                                  "sx": 0,
+                                  "sy": 2,
+                                  "ex": 1,
+                                  "ey": 4,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "south": {
+                                  "sx": 113,
+                                  "sy": 10,
+                                  "ex": 122,
+                                  "ey": 27,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "east": {
+                                  "sx": 64,
+                                  "sy": 45,
+                                  "ex": 80,
+                                  "ey": 63,
+                                  "rot": "0",
+                                  "autoUV": false
+                                },
+                                "west": {
+                                  "sx": 80,
+                                  "sy": 45,
+                                  "ex": 64,
+                                  "ey": 63,
+                                  "rot": "0",
+                                  "autoUV": false
+                                }
+                              },
+                              "storeID": 1333307795026259200
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "B2",
+                      "show": true,
+                      "texture": true,
+                      "textureSize": 1,
+                      "offset": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "pos": {
+                        "x": 0,
+                        "y": 0,
+                        "z": -1
+                      },
+                      "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "size": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "rscale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                      },
+                      "u": 0,
+                      "v": 0,
+                      "color": "0",
+                      "mirror": false,
+                      "mcScale": 0,
+                      "glow": false,
+                      "recolor": false,
+                      "hidden": false,
+                      "singleTex": false,
+                      "extrude": false,
+                      "locked": false,
+                      "nameColor": 0,
+                      "faceUV": {},
+                      "storeID": 5702772805139746000,
+                      "children": [
+                        {
+                          "name": "cube",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": 0,
+                            "y": -22.5,
+                            "z": 14
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": -8,
+                            "z": -10
+                          },
+                          "rotation": {
+                            "x": -22.5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0.1,
+                            "y": 6,
+                            "z": 8
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {
+                            "up": {
+                              "sx": 0,
+                              "sy": 2,
+                              "ex": 0,
+                              "ey": 0,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "down": {
+                              "sx": 0,
+                              "sy": 0,
+                              "ex": 0,
+                              "ey": 2,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "north": {
+                              "sx": 0,
+                              "sy": 2,
+                              "ex": 0,
+                              "ey": 4,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "south": {
+                              "sx": 0,
+                              "sy": 1,
+                              "ex": 0,
+                              "ey": 3,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "east": {
+                              "sx": 45,
+                              "sy": 68,
+                              "ex": 2,
+                              "ey": 96,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "west": {
+                              "sx": 2,
+                              "sy": 68,
+                              "ex": 45,
+                              "ey": 96,
+                              "rot": "0",
+                              "autoUV": false
+                            }
+                          },
+                          "storeID": 9124731589836887000
+                        },
+                        {
+                          "name": "cube",
+                          "show": true,
+                          "texture": true,
+                          "textureSize": 1,
+                          "offset": {
+                            "x": -0.35,
+                            "y": 1.5,
+                            "z": 8.5
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": -24,
+                            "z": 0
+                          },
+                          "rotation": {
+                            "x": 5,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "size": {
+                            "x": 0.8,
+                            "y": 1.5,
+                            "z": 4
+                          },
+                          "rscale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "scale": {
+                            "x": 1,
+                            "y": 1,
+                            "z": 1
+                          },
+                          "u": 0,
+                          "v": 0,
+                          "color": "0",
+                          "mirror": false,
+                          "mcScale": 0,
+                          "glow": false,
+                          "recolor": false,
+                          "hidden": false,
+                          "singleTex": false,
+                          "extrude": false,
+                          "locked": false,
+                          "nameColor": 0,
+                          "faceUV": {
+                            "up": {
+                              "sx": 118,
+                              "sy": 111,
+                              "ex": 108,
+                              "ey": 89,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "down": {
+                              "sx": 1,
+                              "sy": 0,
+                              "ex": 0,
+                              "ey": 4,
+                              "rot": "180",
+                              "autoUV": false
+                            },
+                            "north": {
+                              "sx": 0,
+                              "sy": 3,
+                              "ex": 1,
+                              "ey": 4,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "south": {
+                              "sx": 54,
+                              "sy": 66,
+                              "ex": 62,
+                              "ey": 78,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "east": {
+                              "sx": 77,
+                              "sy": 73,
+                              "ex": 104,
+                              "ey": 86,
+                              "rot": "0",
+                              "autoUV": false
+                            },
+                            "west": {
+                              "sx": 104,
+                              "sy": 73,
+                              "ex": 77,
+                              "ey": 86,
+                              "rot": "0",
+                              "autoUV": false
+                            }
+                          },
+                          "storeID": 9131772377922984000
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    },
+    {
+      "id": "left_arm",
+      "show": true,
+      "showInEditor": true,
+      "locked": false,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    },
+    {
+      "id": "right_arm",
+      "show": true,
+      "showInEditor": true,
+      "locked": false,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    },
+    {
+      "id": "left_leg",
+      "show": true,
+      "showInEditor": true,
+      "locked": false,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    },
+    {
+      "id": "right_leg",
+      "show": true,
+      "showInEditor": true,
+      "locked": false,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "dup": false,
+      "disableVanillaAnim": false,
+      "name": "",
+      "nameColor": 0
+    }
+  ],
+  "skinType": "default",
+  "scaling": 0,
+  "hideHeadIfSkull": true,
+  "removeArmorOffset": true,
+  "scalingEx": {
+    "eye_height": 1,
+    "hitbox_width": 1,
+    "hitbox_height": 1,
+    "third_person": 1,
+    "view_bobbing": 1,
+    "motion": 1,
+    "step_height": 1,
+    "flight_speed": 1,
+    "fall_damage": 1,
+    "reach": 1,
+    "mining_speed": 1,
+    "attack_speed": 1,
+    "attack_knockback": 1,
+    "attack_dmg": 1,
+    "defense": 1,
+    "health": 1,
+    "mob_visibility": 1,
+    "width": 1,
+    "height": 1,
+    "jump_height": 1,
+    "projectile_dmg": 1,
+    "explosion_dmg": 1,
+    "knockback_resist": 1,
+    "safe_fall_distance": 1,
+    "render_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "render_rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "render_scale": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "firstPersonHand": {
+    "left": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "right": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  "removeBedOffset": false,
+  "enableInvisGlow": false,
+  "textures": {
+    "skin": {
+      "customGridSize": false,
+      "anim": []
+    }
+  },
+  "skinSize": {
+    "x": 2100,
+    "y": 1500
+  },
+  "armor1Tex": true,
+  "armor2Tex": true
+}
